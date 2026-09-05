@@ -33,3 +33,14 @@ print('Tuple Data : ',tuple_data)
 print('Set Data : ',set_data)
 for i in range_data:
     print(i , end=' ') 
+
+# Non parametric Function:
+def fun():
+    print("\nThis is a non parametric function")
+fun()
+
+# parametric Function:
+def fun1(name, age):
+    print("Your name is "+name+" and your age is ",age)
+
+fun1("Alyan",19)
