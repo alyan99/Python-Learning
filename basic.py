@@ -18,3 +18,18 @@ print(statement[0:3])
 print(statement[2:7])
 print(statement*2)
 print(statement+" ByeWorld")
+
+# list: store dupliacte and are chaneable e.g: list=[1,2,3,4,5,"hello",3,5]:
+# duple: store duplicate and are unchangeable e.g: duple=(1,2,3,4,5,"hello",3,5): if you try to change them it will give error
+# set: store unique values(No duplicate) and are changeable e.g: set={1,2,3,4,5,"hello"}: if you add dupliacte here it will automatically remove it
+# range: like (1,10) it will give you 1,2,3,4,5,6,7,8,9
+
+list_data = [11,12,13,14,15, 'orange']
+tuple_data = (12,15,17 , 'kiran')
+set_data = {'ali', 'hassan', 'ayesha' , 12 ,18.6}
+range_data = range(1,11)
+print('List Data : ', list_data)
+print('Tuple Data : ',tuple_data)
+print('Set Data : ',set_data)
+for i in range_data:
+    print(i , end=' ') 
