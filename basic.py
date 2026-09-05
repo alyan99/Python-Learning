@@ -15,3 +15,4 @@ statement="HelloWorld"
 print(statement)
 print(statement[0])
 print(statement[0:3])
+print(statement[2:7])
